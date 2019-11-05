@@ -2,10 +2,11 @@ class AuthController < ApplicationController
 
   # skip_before_action :authorized, only: [:create]
 
+  # Executed upon user login
   def login
     user = User.find_by(username: login_params[:username])
-    is_authenticated = user.authenticate(login_params[:password])
 
+    is_authenticated = user.authenticate(login_params[:password])
     if is_authenticated
       render json: { user: user, token: create_token(user.id) }
     else
