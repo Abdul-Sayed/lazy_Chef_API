@@ -6,7 +6,8 @@ class ApplicationController < ActionController::API
   end
 
   def secret
-    Rails.application.credentials.jwt_secret
+    #Rails.application.credentials.jwt_secret
+    "someAppSecret"
   end
 
   def create_token(user_id)
