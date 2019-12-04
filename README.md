@@ -1,24 +1,45 @@
-# README
+# lazy_Chef_API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Back End for [Lazy_Chef](https://github.com/Abdul-Sayed/Lazy_Chef)
 
-Things you may want to cover:
+[Live Demo](http://lazy-chef.surge.sh/)
 
-* Ruby version
+<img src="https://i.ibb.co/N6wCQHC/login.png" alt="login" border="0">
 
-* System dependencies
+<img src="https://i.ibb.co/pKgW78j/Home.png" alt="Home" border="0">
 
-* Configuration
+<img src="https://i.ibb.co/sy4gFp1/ingredients.png" alt="ingredients" border="0">
 
-* Database creation
+<img src="https://i.ibb.co/DMHfkXr/top.png" alt="top" border="0">
 
-* Database initialization
+<img src="https://i.ibb.co/sHvyqx3/middle.png" alt="middle" border="0">
 
-* How to run the test suite
+<img src="https://i.ibb.co/q10z20Q/bottom.png" alt="bottom" border="0">
 
-* Services (job queues, cache servers, search engines, etc.)
+## Technologies/Frameworks used
 
-* Deployment instructions
+Built with Ruby on Rails
 
-* ...
+- Ruby 2.6.1
+- Rails 6.0.1
+
+Features the ActiveRecord `has_and_belongs_to_many` model relation between User >-< SavedRecipe
+
+Utilizes the bcrypt and JWT gems for Authentication/Authorization. Saves to a PostgreSQL database.
+
+### Getting Started
+
+#### Installing
+
+Clone down the repo
+
+### `bundle install`
+
+## Deployed App
+
+Backend deployed on [Heroku](heroku.com)
+Frontend deployed on [Surge](http://lazy-chef.surge.sh/)
+
+## Authors
+
+[Abdul Sayed](https://www.linkedin.com/in/abdul-sayed-engr/)
