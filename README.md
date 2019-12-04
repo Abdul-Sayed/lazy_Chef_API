@@ -33,13 +33,13 @@ Utilizes the bcrypt and JWT gems for Authentication/Authorization. Saves to a Po
 
 Clone down the repo
 
-### `bundle install`
+`bundle install`
 
-## Deployed App
+#### Deployed App
 
 Backend deployed on [Heroku](heroku.com)
 Frontend deployed on [Surge](http://lazy-chef.surge.sh/)
 
-## Authors
+### Authors
 
 [Abdul Sayed](https://www.linkedin.com/in/abdul-sayed-engr/)
